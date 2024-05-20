@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: player-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.17.0.2:3377/chen?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: fcx19960120
+  #  session失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
+
